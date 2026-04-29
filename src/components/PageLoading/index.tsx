@@ -6,6 +6,6 @@ export interface PageLoadingProps {
 
 export const PageLoading = ({ tip }: PageLoadingProps) => (
   <div style={{ paddingTop: 100, textAlign: 'center' }}>
-    <Spin size="large" tip={tip} />
+    <Spin size="large" description={tip} />
   </div>
 );

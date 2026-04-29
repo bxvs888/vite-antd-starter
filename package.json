@@ -14,9 +14,9 @@
     "test:coverage": "vp test run --coverage"
   },
   "dependencies": {
-    "@ant-design/icons": "^6.1.1",
+    "@ant-design/icons": "^6.2.2",
     "@antv/g2": "^5.4.8",
-    "antd": "^6.3.5",
+    "antd": "^6.3.7",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router": "^7.14.0"
@@ -32,9 +32,9 @@
     "jsdom": "^28.1.0",
     "sass": "^1.99.0",
     "typescript": "^5.9.3",
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plugin-html": "^3.2.2",
-    "vite-plus": "latest",
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest"
+    "vite-plus": "latest"
   },
   "packageManager": "pnpm@10.17.1"
 }

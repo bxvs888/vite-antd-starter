@@ -238,7 +238,7 @@ const TableList = () => {
   return (
     <div className="table-list-page">
       {/* Search Form */}
-      <Card className="search-card" bordered={false}>
+      <Card className="search-card" variant="borderless">
         <Form form={searchForm} layout="inline" className="search-form">
           <Form.Item name="name" label="Name">
             <Input placeholder="Please enter name" allowClear />
@@ -276,7 +276,7 @@ const TableList = () => {
       {/* Table Card */}
       <Card
         className="table-card"
-        bordered={false}
+        variant="borderless"
         title="Data List"
         extra={
           <Button type="primary" icon={<PlusOutlined />} onClick={handleAdd}>
