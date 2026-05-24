@@ -2,7 +2,7 @@ import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
   test: {
-    exclude: ['templates/**'],
+    include: ['__root_tests__/**/*.test.ts'],
     passWithNoTests: true,
   },
   fmt: {
